@@ -18,8 +18,7 @@ class Navbar extends Component {
             <nav className='NavbarItems'>
                 <h1 className='navbar-logo'>React{<ArrowBackIcon />}</h1>
                 <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.clicked ? <> (<MenuIcon />)
-                        (<CloseIcon />) </> : ''}></i>
+                    <i>{this.state.clicked ? <CloseIcon /> : <MenuIcon />}</i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
