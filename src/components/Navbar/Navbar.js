@@ -10,7 +10,7 @@ class Navbar extends Component {
     state = { clicked: false }
 
     handleClick = () => {
-        this.setState({ clicked: !this.state.clicked })
+        this.setState({ clicked: this.state.clicked })
     }
 
     render() {
@@ -18,8 +18,8 @@ class Navbar extends Component {
             <nav className='NavbarItems'>
                 <h1 className='navbar-logo'>React{<ArrowBackIcon />}</h1>
                 <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.clicked ? <> (<MenuIcon />)
-                        (<CloseIcon />) </> : ''}></i>
+                    <i className={this.state.clicked === true ? <MenuIcon /> :
+                        <CloseIcon />}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
