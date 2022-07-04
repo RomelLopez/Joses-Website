@@ -8,6 +8,7 @@ export default class routerURL extends Component {
         return (
             <Routes>
                 <Route path={process.env.PUBLIC_URL} element={<Navbar />} />
+
             </Routes>
         )
     }
