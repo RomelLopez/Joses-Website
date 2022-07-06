@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { MenuItems } from './MenuItems';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { Button } from './Button'
@@ -16,10 +15,9 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='NavbarItems'>
-                <h1 className='navbar-logo'>React{<ArrowBackIcon />}</h1>
+                <h1 className='navbar-logo'>Jose Modenesi</h1>
                 <div className='menu-icon' onClick={this.handleClick}>
-                    <i className={this.state.clicked ? <> (<MenuIcon />)
-                        (<CloseIcon />) </> : ''}></i>
+                    <i>{this.state.clicked ? <CloseIcon className='materialicon' /> : <MenuIcon className='materialicon' />}</i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
