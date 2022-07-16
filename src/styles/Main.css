@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(72, 118, 245);
+}
+
+#main {
+    width: 100%;
+}

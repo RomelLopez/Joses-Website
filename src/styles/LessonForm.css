@@ -1,0 +1,48 @@
+.parent {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px 30px;
+    border-radius: 7px;
+    background-color: rgb(131, 151, 218);
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.input-box {
+    padding: 5px;
+    margin: 5px;
+}
+
+button.register {
+    display: flex;
+    padding: 3px;
+    margin-left: 35%;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+.box {
+    margin-top: 100px;
+}
+
+.box .calendar--text {
+    text-align: center;
+}
+
+.calendar {
+    width: 30%;
+
+}
