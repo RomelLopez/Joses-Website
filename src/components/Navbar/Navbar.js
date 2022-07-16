@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { MenuItems } from './MenuItems';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -15,7 +16,9 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='NavbarItems'>
-                <h1 className='navbar-logo'>Jose Modenesi</h1>
+                <a href="javascript:history.back()">
+                    <h1 className='navbar-logo' > Jose Modenesi</h1>
+                </a>
                 <div className='menu-icon' onClick={this.handleClick}>
                     <i>{this.state.clicked ? <CloseIcon className='materialicon' /> : <MenuIcon className='materialicon' />}</i>
                 </div>
@@ -31,7 +34,7 @@ class Navbar extends Component {
                     })}
 
                 </ul>
-                <Button>Sign Up</Button>
+                <Button >Sign Up</Button>
             </nav>
         )
     }
