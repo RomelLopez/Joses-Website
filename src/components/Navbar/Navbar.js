@@ -16,7 +16,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav className='NavbarItems'>
-                <a href="javascript:history.back()">
+                <a href="/Main">
                     <h1 className='navbar-logo' > Jose Modenesi</h1>
                 </a>
                 <div className='menu-icon' onClick={this.handleClick}>

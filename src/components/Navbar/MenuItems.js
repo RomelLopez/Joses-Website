@@ -13,17 +13,17 @@ export const MenuItems = [
     },
     {
         title: 'Events',
-        url: '#',
+        url: '/Events',
         cName: 'nav-links'
     },
     {
         title: 'Services',
-        url: '#',
+        url: '/Services',
         cName: 'nav-links'
     },
     {
         title: 'Contact Us',
-        url: '#',
+        url: '/Contact',
         cName: 'nav-links'
     },
     {
