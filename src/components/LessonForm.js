@@ -39,7 +39,8 @@ function LessonForm() {
         <div className='parent'>
             <div className='container'>
                 <div className='title'>Get Your Free Lesson Now</div>
-                <form className='register-form' onSubmit={handleSubmit}>
+                <form className='register-form' onSubmit={handleSubmit}
+                    action="https://formsubmit.co/rawlopez123@gmail.com" method='POST'>
                     {submitted && valid ? <div> Success! Thank you for registering </div> : null}
                     <input
                         onChange={handleFirstNameChange}
@@ -65,7 +66,7 @@ function LessonForm() {
                     />
                     {submitted && !values.email ? <span> Please Enter A Email </span> : null}
                     <button className="register" type="submit">
-                        Register
+                        Submit
                     </button>
                 </form>
             </div>

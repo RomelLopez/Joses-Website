@@ -1,0 +1,25 @@
+.Events--container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.events--header {
+    text-align: center;
+}
+
+.events {
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.events img {
+    width: 50%;
+    height: 50%;
+}
+
+.events p {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}

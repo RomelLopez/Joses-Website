@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/About.css'
-import joselogo from '../images/joselogo.png'
+import josebalcony from '../images/josebalcony.jpg';
 import Navbar from './Navbar/Navbar';
 function About() {
     return (<div className='about--container'>
@@ -20,7 +20,7 @@ function About() {
                     In addition to all these accomplishments, Sergio's humility and patience enables him to do what he loves most, and that is sharing his passion for dance with others.</p>
             </div>
             <div className='col--logo'>
-                <img src={joselogo} />
+                <img src={josebalcony} />
             </div>
         </div>
     </div>
