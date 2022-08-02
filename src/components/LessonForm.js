@@ -39,14 +39,17 @@ function LessonForm() {
         <div className='parent'>
             <div className='container'>
                 <div className='title'>Get Your Free Lesson Now</div>
-                <form className='register-form' onSubmit={handleSubmit}
-                    action="https://formsubmit.co/rawlopez123@gmail.com" method='POST'>
+                <form className='register-form'
+                    action="https://formsubmit.co/rawlopez123@gmail.com"
+                    method='POST' onSubmit={handleSubmit}
+                >
                     {submitted && valid ? <div> Success! Thank you for registering </div> : null}
                     <input
                         onChange={handleFirstNameChange}
                         value={values.firstName}
                         className='input-box'
                         placeholder='First Name'
+                        type="text"
                         name='firstname' />
                     {submitted && !values.firstName ? <span> Please Enter A First Name </span> : null}
                     <input
@@ -54,6 +57,7 @@ function LessonForm() {
                         value={values.lastName}
                         className='input-box'
                         placeholder='Last-Name'
+                        type="text"
                         name='lastname'
                     />
                     {submitted && !values.lastName ? <span> Please Enter A Last Name </span> : null}
@@ -62,6 +66,7 @@ function LessonForm() {
                         value={values.email}
                         className='input-box'
                         placeholder='Email'
+                        type="text"
                         name='email'
                     />
                     {submitted && !values.email ? <span> Please Enter A Email </span> : null}
@@ -70,8 +75,8 @@ function LessonForm() {
                     </button>
                 </form>
             </div>
-            <div class="box">
-                <div class="calendar--text">
+            <div className="box">
+                <div className="calendar--text">
                     <h1>Calendar</h1>
                     <img className='calendar' src={calendar} />
                 </div>
