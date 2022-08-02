@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Joses-Website/static/css/main.43b87b04.css",
-    "main.js": "/Joses-Website/static/js/main.07b0c8ac.js",
+    "main.js": "/Joses-Website/static/js/main.cff3c59d.js",
     "static/media/josedancing.GIF": "/Joses-Website/static/media/josedancing.c2065437dba7d78b6946.GIF",
     "static/media/flyerjose2.jpg": "/Joses-Website/static/media/flyerjose2.7a15d5fd2887a3c85600.jpg",
     "static/media/calendar.png": "/Joses-Website/static/media/calendar.c985989b90f50acd5b73.png",
@@ -9,10 +9,10 @@
     "static/media/flyerjose1.jpg": "/Joses-Website/static/media/flyerjose1.4cc9d60d7cf9be53e59f.jpg",
     "index.html": "/Joses-Website/index.html",
     "main.43b87b04.css.map": "/Joses-Website/static/css/main.43b87b04.css.map",
-    "main.07b0c8ac.js.map": "/Joses-Website/static/js/main.07b0c8ac.js.map"
+    "main.cff3c59d.js.map": "/Joses-Website/static/js/main.cff3c59d.js.map"
   },
   "entrypoints": [
     "static/css/main.43b87b04.css",
-    "static/js/main.07b0c8ac.js"
+    "static/js/main.cff3c59d.js"
   ]
 }
