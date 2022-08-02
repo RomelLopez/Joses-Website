@@ -40,7 +40,7 @@ function LessonForm() {
             <div className='container'>
                 <div className='title'>Get Your Free Lesson Now</div>
                 <form className='register-form'
-                    action="https://formsubmit.co/rawlopez123@gmail.com"
+                    action="https://formsubmit.co/romelanthonylopez@gmail.com"
                     method='POST' onSubmit={handleSubmit}
                 >
                     {submitted && valid ? <div> Success! Thank you for registering </div> : null}
