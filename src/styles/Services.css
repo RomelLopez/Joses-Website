@@ -1,0 +1,11 @@
+.Services--container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.service--dividers {}
+
+.servicesleft {}
+
+.servicesright {}

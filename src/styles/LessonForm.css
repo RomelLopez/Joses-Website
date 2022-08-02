@@ -40,9 +40,17 @@ button.register {
 
 .box .calendar--text {
     text-align: center;
+    text-decoration: underline;
+    margin-bottom: 1.9rem;
+}
+
+.box .calendar--text h1 {
+    margin-bottom: 6%;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .calendar {
-    width: 30%;
+    width: 80%;
 
 }

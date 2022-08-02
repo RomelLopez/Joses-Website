@@ -12,6 +12,11 @@
     margin: auto;
     justify-content: center;
     text-align: center;
+
+}
+
+.events--header h1 {
+    text-decoration: underline;
 }
 
 .events img {

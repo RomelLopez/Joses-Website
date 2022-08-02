@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/LessonForm.css';
-import calendar from '../images/calendar.png';
+import josecalendar from '../images/josecalendar.jpg';
 
 
 function LessonForm() {
@@ -78,7 +78,7 @@ function LessonForm() {
             <div className="box">
                 <div className="calendar--text">
                     <h1>Calendar</h1>
-                    <img className='calendar' src={calendar} />
+                    <img className='calendar' src={josecalendar} />
                 </div>
             </div>
         </div>

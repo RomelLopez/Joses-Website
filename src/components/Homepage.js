@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Homepage.css'
 
-import calendar from '../images/calendar.png'
+
 function Homepage() {
     return (
         <div id='home'>
